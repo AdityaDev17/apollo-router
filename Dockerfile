@@ -1,3 +1,3 @@
-FROM ghcr.io/apollographql/router:v1.36.2
+FROM ghcr.io/apollographql/router:latest
 COPY supergraph.graphql /supergraph.graphql
 CMD ["--supergraph", "/supergraph.graphql"]
